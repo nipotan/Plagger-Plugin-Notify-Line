@@ -8,5 +8,4 @@ requires 'Plagger' => 0;
 requires 'Furl'    => 0;
 author_tests 'xt';
 repository 'https://github.com/nipotan/Plagger-Plugin-Notify-Line';
-auto_include;
 WriteAll;

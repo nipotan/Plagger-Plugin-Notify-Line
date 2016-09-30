@@ -2,6 +2,7 @@ package Plagger::Plugin::Notify::Line;
 
 use strict;
 use warnings;
+use 5.008_001;
 use parent qw(Plagger::Plugin);
 use Encode;
 use Furl;
