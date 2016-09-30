@@ -1,9 +1,7 @@
 
 [% feed.title %]
-[% FOREACH entry IN feed.entries %]
 [% entry.title %]
 [%- IF entry.author %]
 by [% entry.author %]
 [%- END %]
-[% entry.link %]
-[% END -%]
+[% entry.link -%]

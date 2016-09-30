@@ -7,7 +7,7 @@ use parent qw(Plagger::Plugin);
 use Encode;
 use Furl;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub register {
     my($self, $context) = @_;
